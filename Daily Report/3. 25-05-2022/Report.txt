@@ -23,4 +23,6 @@ if (course =='BIGINNER') return beginner css class as input in ngClass
 
 
 Video 14 :- 
+> ngstyle :- applying multiple styles 
+> ngclass use frequently than ngstyle
 
