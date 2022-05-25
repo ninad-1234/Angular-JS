@@ -29,7 +29,7 @@ export class CourseCardComponent implements OnInit {
   }
 
   onCourseViewed(){
-    console.log("card component - button clicked ...");
+    console.log("card component - button not clicked ...");
     this.courseEmitter.emit(this.course);
   }
 
@@ -38,5 +38,9 @@ export class CourseCardComponent implements OnInit {
       return 'beginner';
     }
   }
+
+  // cardStyles(){
+  //   return {'background-image': 'url('+ this.course.iconUrl +')'};
+  // }
 
 }
