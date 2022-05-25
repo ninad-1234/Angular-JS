@@ -30,5 +30,8 @@ Video 14 :-
 video 15 :- ng-container :- wrapper to apply structural directives . Mostly usful if having multiple parent classes 
 if not convinient to add structural directive just add ng-container 
 
+Video 16 :- Angular Pipes :- 
+pipe :- transform data and display in another form 
+
 
 
