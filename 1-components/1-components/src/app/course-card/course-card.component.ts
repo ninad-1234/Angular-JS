@@ -29,7 +29,7 @@ export class CourseCardComponent implements OnInit {
   }
 
   onCourseViewed(){
-    console.log("card component - button not clicked ...");
+    console.log("card component - button  clicked ...");
     this.courseEmitter.emit(this.course);
   }
 

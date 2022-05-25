@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import {COURSES} from '../db-data';
+import { CourseCardComponent } from './course-card/course-card.component';
 import { Course } from './model/course';
 
 @Component({
@@ -11,18 +12,27 @@ export class AppComponent {
 
   courses = COURSES;
 
-  title = COURSES[0].description;
+  @ViewChild('cardRef1',{read: ElementRef})
+  card1 :CourseCardComponent;
 
-  price = 9.95863326698;
+  @ViewChild('cardRef2')
+  card2 :CourseCardComponent;
+  
+  @ViewChild('container')
+  containerDiv :ElementRef;
 
-  rate = 0.67 ;
+  // title = COURSES[0].description;
 
-  course = COURSES[0];
+  // price = 9.95863326698;
 
-  startDate = new Date(2000, 0, 1);
+  // rate = 0.67 ;
+
+  // course = COURSES[0];
+
+  // startDate = new Date(2000, 0, 1);
 
   onCourseSelected(course:Course){
-    console.log("App component - click event bubbled ...", course);
+    console.log("containerDiv",this.containerDiv);
   }
 
 
