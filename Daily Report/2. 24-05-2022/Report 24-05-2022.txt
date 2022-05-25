@@ -1,0 +1,21 @@
+commands used :- 
+
+Virtual Environment setup :- 
+> myenv\Scripts\activate
+
+Node js :-
+> mkdir nodejs
+> cd nodejs/
+> winget install curl
+> Remove-item alias:curl
+> curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+> winget install nodejs
+> node -v
+
+Angular :-
+> npm install @angular/cli@^13.0.3
+> ng
+
+Downloaded Github Repo:-  "https://github.com/angular-university/angular-course/tree/1-components"
+>ng generate component course-card
+

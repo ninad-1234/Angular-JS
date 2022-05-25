@@ -1,0 +1,26 @@
+Video 12 :-
+>  *ngIf ="true"
+> *ngIf ="isImageVisible()"
+> isImageVisible(){
+    return this.course && this.course.iconUrl;
+  }
+
+> if db start with undefined leave the first and execute rest using ? sign eg :- course?.longDescription
+
+> instead of applying ? for all attribute use *ngIf="course"
+globally , so if course not defined the whole instance hiddene else display 
+
+> else cluse :- display msg if component not displayed 
+
+Video 13 :- ng class
+> bydefault style from global (style.css)
+> ng class for conditional style use course-card coponent.css
+> using course-card.beginner :- state class apply only for class beginer 
+> ng class :- several Css classes can be added seperated by space 
+> in ng class :- pass array, string, object and function (recommended )
+> working of cardClasses():-
+if (course =='BIGINNER') return beginner css class as input in ngClass 
+
+
+Video 14 :- 
+

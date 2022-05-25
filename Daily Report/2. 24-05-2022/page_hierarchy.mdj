@@ -1,0 +1,1405 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGA9h3aD5t5IOk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGA9h3aD5t6NyA=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "video 9",
+					"ownedViews": [
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGA9h6DuZt+Xlg=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"font": "Arial;13;0",
+							"left": 184,
+							"top": 48,
+							"width": 401,
+							"height": 25,
+							"text": "Data Flow Through pages - video :- 9"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9h9CsJuHxlc=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9h9CsJuFW2Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h9CsZuNVqM=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h9CsJuHxlc="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 141,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h9CsZuIB0k=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h9CsJuHxlc="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 146,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "index.html",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h9CsZuJEE4=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h9CsJuHxlc="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 136,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9h9CsZuIB0k="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9h/6j5uT++k=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9h/6j5uRSEM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h/6j5uZel0=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h/6j5uT++k="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 253,
+									"width": 109.84619140625,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h/6j5uUtiY=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h/6j5uT++k="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 258,
+									"width": 109.84619140625,
+									"height": 13,
+									"text": "app.components.ts",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9h/6j5uVECM=",
+									"_parent": {
+										"$ref": "AAAAAAGA9h/6j5uT++k="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 248,
+							"width": 129.84619140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9h/6j5uUtiY="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iB0dJufrfc=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iB0c5ud+OU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iB0dJugKGA=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iB0dJufrfc="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iB0c5ud+OU="
+									},
+									"font": "Arial;13;0",
+									"left": 271,
+									"top": 201,
+									"width": 106.12646484375,
+									"height": 13,
+									"alpha": 1.585287813760439,
+									"distance": 69.00724599634447,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iB0dJufrfc="
+									},
+									"edgePosition": 1,
+									"text": "selector: 'app-root'"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9h/6j5uT++k="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9h9CsJuHxlc="
+							},
+							"lineStyle": 2,
+							"points": "255:168;255:248",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iB0dJugKGA="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iDGpZuqCZQ=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iDGpZuoBSc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iDGpZuwwmY=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iDGpZuqCZQ="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 381,
+									"width": 124.29345703125,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iDGpZurcOc=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iDGpZuqCZQ="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 386,
+									"width": 124.29345703125,
+									"height": 13,
+									"text": "app.components.html",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iDGpZussx4=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iDGpZuqCZQ="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 376,
+							"width": 144.29345703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iDGpZurcOc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iFE4pu2aSk=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iFE4pu0pyg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iFE4pu3MCg=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iFE4pu2aSk="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iFE4pu0pyg="
+									},
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 321,
+									"width": 145.96435546875,
+									"height": 13,
+									"alpha": 1.5816652544574987,
+									"distance": 92.00543462209176,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iFE4pu2aSk="
+									},
+									"edgePosition": 1,
+									"text": "Dataflow of course object"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9iDGpZuqCZQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9h/6j5uT++k="
+							},
+							"lineStyle": 2,
+							"points": "268:280;268:376",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iFE4pu3MCg="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iIhUZvBXFM=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iIhUZu/sPs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iIhUpvHqgc=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iIhUZvBXFM="
+									},
+									"font": "Arial;13;0",
+									"left": 506,
+									"top": 245,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iIhUZvCb0s=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iIhUZvBXFM="
+									},
+									"font": "Arial;13;0",
+									"left": 506,
+									"top": 250,
+									"width": 87.4326171875,
+									"height": 26,
+									"text": "db-data.ts (DB of courses)",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iIhUZvDqN8=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iIhUZvBXFM="
+									},
+									"font": "Arial;13;0",
+									"left": -32,
+									"top": -48,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 496,
+							"top": 240,
+							"width": 107.4326171875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iIhUZvCb0s="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iLIu5vQmMo=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iLIu5vO9NI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iLIu5vRgSs=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iLIu5vQmMo="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iLIu5vO9NI="
+									},
+									"font": "Arial;13;0",
+									"left": 351,
+									"top": 277,
+									"width": 128.62255859375,
+									"height": 13,
+									"alpha": 1.768192527670336,
+									"distance": 15.297058540778355,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iLIu5vQmMo="
+									},
+									"edgePosition": 1,
+									"text": "courses object refered"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9h/6j5uT++k="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9iIhUZvBXFM="
+							},
+							"lineStyle": 2,
+							"points": "496:269;329:269",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iLIu5vRgSs="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iMkW5vc6Eo=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iMkW5vaD9o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iMkXJviOYE=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iMkW5vc6Eo="
+									},
+									"font": "Arial;13;0",
+									"left": 850,
+									"top": 261,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iMkW5vdREI=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iMkW5vc6Eo="
+									},
+									"font": "Arial;13;0",
+									"left": 850,
+									"top": 266,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "courses.ts",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iMkXJveruI=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iMkW5vc6Eo="
+									},
+									"font": "Arial;13;0",
+									"left": 72,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 840,
+							"top": 256,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iMkW5vdREI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iNbVpvpFWs=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iNbVpvnYiM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iNbVpvqs34=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iNbVpvpFWs="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iNbVpvnYiM="
+									},
+									"font": "Arial;13;0",
+									"left": 621,
+									"top": 279,
+									"width": 198.7197265625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iNbVpvpFWs="
+									},
+									"edgePosition": 1,
+									"text": "structure defined of courses "
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9iIhUZvBXFM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9iMkW5vc6Eo="
+							},
+							"lineStyle": 2,
+							"points": "840:270;602:270",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iNbVpvqs34="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iPo/Jv2L94=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iPo/Jv0adc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iPo/Zv8v+k=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iPo/Jv2L94="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 469,
+									"width": 156.79345703125,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iPo/Jv3iMg=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iPo/Jv2L94="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 474,
+									"width": 156.79345703125,
+									"height": 13,
+									"text": "course-card.components.ts",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iPo/Jv4ers=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iPo/Jv2L94="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 464,
+							"width": 176.79345703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iPo/Jv3iMg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iRAxZwDhCE=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iRAxZwBK6g="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iRAxZwESNw=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iRAxZwDhCE="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iRAxZwBK6g="
+									},
+									"font": "Arial;13;0",
+									"left": 311,
+									"top": 424,
+									"width": 196.73291015625,
+									"height": 13,
+									"alpha": 1.6247974651724608,
+									"distance": 111.16204388189342,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iRAxZwDhCE="
+									},
+									"edgePosition": 1,
+									"text": "@Input: course      (data received)"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9iPo/Jv2L94="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9iDGpZuqCZQ="
+							},
+							"lineStyle": 2,
+							"points": "298:408;298:464",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iRAxZwESNw="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iTmA5wOv88=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iTmA5wMLqE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iTmBJwUtW4=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iTmA5wOv88="
+									},
+									"font": "Arial;13;0",
+									"left": 242,
+									"top": 557,
+									"width": 171.24072265625,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iTmA5wPZG8=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iTmA5wOv88="
+									},
+									"font": "Arial;13;0",
+									"left": 242,
+									"top": 562,
+									"width": 171.24072265625,
+									"height": 13,
+									"text": "course-card.components.html",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iTmA5wQQ5U=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iTmA5wOv88="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 552,
+							"width": 191.24072265625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iTmA5wPZG8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9iUnVJwavDU=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h3aD5t6NyA="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iUnVJwYRco="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9iUnVJwbRCo=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iUnVJwavDU="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9iUnVJwYRco="
+									},
+									"font": "Arial;13;0",
+									"left": 343,
+									"top": 512,
+									"width": 192.98779296875,
+									"height": 13,
+									"alpha": 1.6187591526979435,
+									"distance": 125.14391715141412,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9iUnVJwavDU="
+									},
+									"edgePosition": 1,
+									"text": "display input data using [] and {{}}"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9iTmA5wOv88="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9iPo/Jv2L94="
+							},
+							"lineStyle": 2,
+							"points": "314:496;314:552",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iUnVJwbRCo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9h9CsJuFW2Q=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "index.html",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iB0c5ud+OU=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h9CsJuFW2Q="
+							},
+							"name": "selector: 'app-root'",
+							"source": {
+								"$ref": "AAAAAAGA9h9CsJuFW2Q="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9h/6j5uRSEM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9h/6j5uRSEM=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "app.components.ts",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iFE4pu0pyg=",
+							"_parent": {
+								"$ref": "AAAAAAGA9h/6j5uRSEM="
+							},
+							"name": "Dataflow of course object",
+							"source": {
+								"$ref": "AAAAAAGA9h/6j5uRSEM="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9iDGpZuoBSc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iDGpZuoBSc=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "app.components.html",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iRAxZwBK6g=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iDGpZuoBSc="
+							},
+							"name": "@Input: course      (data received)",
+							"source": {
+								"$ref": "AAAAAAGA9iDGpZuoBSc="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9iPo/Jv0adc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iIhUZu/sPs=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "db-data.ts (DB of courses)",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iLIu5vO9NI=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iIhUZu/sPs="
+							},
+							"name": "courses object refered",
+							"source": {
+								"$ref": "AAAAAAGA9iIhUZu/sPs="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9h/6j5uRSEM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iMkW5vaD9o=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "courses.ts",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iNbVpvnYiM=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iMkW5vaD9o="
+							},
+							"name": "structure defined of courses ",
+							"source": {
+								"$ref": "AAAAAAGA9iMkW5vaD9o="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9iIhUZu/sPs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iPo/Jv0adc=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "course-card.components.ts",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9iUnVJwYRco=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iPo/Jv0adc="
+							},
+							"name": "display input data using [] and {{}}",
+							"source": {
+								"$ref": "AAAAAAGA9iPo/Jv0adc="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9iTmA5wMLqE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iTmA5wMLqE=",
+					"_parent": {
+						"$ref": "AAAAAAGA9h3aD5t5IOk="
+					},
+					"name": "course-card.components.html"
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGA9iZeZZwl/a0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel2",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGA9iZeZpwmlGY=",
+					"_parent": {
+						"$ref": "AAAAAAGA9iZeZZwl/a0="
+					},
+					"name": "video 10",
+					"ownedViews": [
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGA9ifud5wsMMA=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 64,
+							"width": 313,
+							"height": 38,
+							"text": "video 10 :-action after clicking view courrse button"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9iilnJw1QEg=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9iilnJwzMQs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iilnJw7gks=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iilnJw1QEg="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 141,
+									"width": 171.24072265625,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iilnJw2OeI=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iilnJw1QEg="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 146,
+									"width": 171.24072265625,
+									"height": 13,
+									"text": "course-card.components.html",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9iilnJw3WVc=",
+									"_parent": {
+										"$ref": "AAAAAAGA9iilnJw1QEg="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 136,
+							"width": 191.24072265625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9iilnJw2OeI="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9ikK6pxCwQU=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9ikK6pxAwUk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9ikK65xIA+o=",
+									"_parent": {
+										"$ref": "AAAAAAGA9ikK6pxCwQU="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 269,
+									"width": 156.79345703125,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9ikK6pxDRHg=",
+									"_parent": {
+										"$ref": "AAAAAAGA9ikK6pxCwQU="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 274,
+									"width": 156.79345703125,
+									"height": 13,
+									"text": "course-card.components.ts",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9ikK65xEDnM=",
+									"_parent": {
+										"$ref": "AAAAAAGA9ikK6pxCwQU="
+									},
+									"font": "Arial;13;0",
+									"left": -40,
+									"top": -32,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 264,
+							"width": 176.79345703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9ikK6pxDRHg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9ike7ZxNRj8=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9ike7ZxLVfo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9ike7ZxOQMU=",
+									"_parent": {
+										"$ref": "AAAAAAGA9ike7ZxNRj8="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9ike7ZxLVfo="
+									},
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": 192,
+									"width": 107.427734375,
+									"height": 13,
+									"alpha": 1.8224861078467325,
+									"distance": 72.27724399837061,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9ike7ZxNRj8="
+									},
+									"edgePosition": 1,
+									"text": "onCourseViewed()"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9ikK6pxCwQU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9iilnJw1QEg="
+							},
+							"lineStyle": 2,
+							"points": "295:168;295:264",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9ike7ZxOQMU="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9irw65xa1+0=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9irw6pxYZAc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9irw65xglxs=",
+									"_parent": {
+										"$ref": "AAAAAAGA9irw65xa1+0="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 373,
+									"width": 124.29345703125,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9irw65xbWX4=",
+									"_parent": {
+										"$ref": "AAAAAAGA9irw65xa1+0="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 378,
+									"width": 124.29345703125,
+									"height": 13,
+									"text": "app.components.html",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9irw65xcDrg=",
+									"_parent": {
+										"$ref": "AAAAAAGA9irw65xa1+0="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 368,
+							"width": 144.29345703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9irw65xbWX4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9itoJZxmiOs=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9itoJZxkars="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9itoJZxnR2M=",
+									"_parent": {
+										"$ref": "AAAAAAGA9itoJZxmiOs="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9itoJZxkars="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 311,
+									"top": 344,
+									"width": 177.734375,
+									"height": 13,
+									"alpha": 1.4128311698164424,
+									"distance": 114.42464769445436,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9itoJZxmiOs="
+									},
+									"edgePosition": 1,
+									"text": "defined using this pointer "
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9irw65xa1+0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9ikK6pxCwQU="
+							},
+							"lineStyle": 2,
+							"points": "287:296;287:368",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9itoJZxnR2M="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGA9iwJ2JxxL88=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 312,
+							"width": 305,
+							"height": 25,
+							"text": "card component - button clicked ... (printed)"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGA9i0X05x5nBE=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 336,
+							"width": 577,
+							"height": 25,
+							"text": "course parameter given inside emitter (@ output courseSelected) using this pointer"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGA9i8dUpyDbUs=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9i8dUpyBUPU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9i8dU5yJSo8=",
+									"_parent": {
+										"$ref": "AAAAAAGA9i8dUpyDbUs="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 477,
+									"width": 109.84619140625,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9i8dUpyEOdg=",
+									"_parent": {
+										"$ref": "AAAAAAGA9i8dUpyDbUs="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 482,
+									"width": 109.84619140625,
+									"height": 13,
+									"text": "app.components.ts",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGA9i8dUpyF9vY=",
+									"_parent": {
+										"$ref": "AAAAAAGA9i8dUpyDbUs="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 472,
+							"width": 129.84619140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGA9i8dUpyEOdg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGA9i9QNZyPi/0=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"model": {
+								"$ref": "AAAAAAGA9i9QNJyNNgM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGA9i9QNZyQl28=",
+									"_parent": {
+										"$ref": "AAAAAAGA9i9QNZyPi/0="
+									},
+									"model": {
+										"$ref": "AAAAAAGA9i9QNJyNNgM="
+									},
+									"font": "Arial;13;0",
+									"left": 328,
+									"top": 416,
+									"width": 317.9541015625,
+									"height": 13,
+									"alpha": 1.640682047168828,
+									"distance": 200.48940121612415,
+									"hostEdge": {
+										"$ref": "AAAAAAGA9i9QNZyPi/0="
+									},
+									"edgePosition": 1,
+									"text": "onCourseSelected triggerd with course as an argument"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGA9i8dUpyDbUs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGA9irw65xa1+0="
+							},
+							"lineStyle": 2,
+							"points": "286:400;286:472",
+							"nameLabel": {
+								"$ref": "AAAAAAGA9i9QNZyQl28="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGA9jBHopyZNTE=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iZeZpwmlGY="
+							},
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 440,
+							"width": 385,
+							"height": 25,
+							"text": "\"App component - click event bubbled ...\", course (Printed)"
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9iilnJwzMQs=",
+					"_parent": {
+						"$ref": "AAAAAAGA9iZeZZwl/a0="
+					},
+					"name": "course-card.components.html",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9ike7ZxLVfo=",
+							"_parent": {
+								"$ref": "AAAAAAGA9iilnJwzMQs="
+							},
+							"name": "onCourseViewed()",
+							"source": {
+								"$ref": "AAAAAAGA9iilnJwzMQs="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9ikK6pxAwUk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9ikK6pxAwUk=",
+					"_parent": {
+						"$ref": "AAAAAAGA9iZeZZwl/a0="
+					},
+					"name": "course-card.components.ts",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9itoJZxkars=",
+							"_parent": {
+								"$ref": "AAAAAAGA9ikK6pxAwUk="
+							},
+							"source": {
+								"$ref": "AAAAAAGA9ikK6pxAwUk="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9irw6pxYZAc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9irw6pxYZAc=",
+					"_parent": {
+						"$ref": "AAAAAAGA9iZeZZwl/a0="
+					},
+					"name": "app.components.html",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGA9i9QNJyNNgM=",
+							"_parent": {
+								"$ref": "AAAAAAGA9irw6pxYZAc="
+							},
+							"name": "onCourseSelected triggerd with course as an argument",
+							"source": {
+								"$ref": "AAAAAAGA9irw6pxYZAc="
+							},
+							"target": {
+								"$ref": "AAAAAAGA9i8dUpyBUPU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGA9i8dUpyBUPU=",
+					"_parent": {
+						"$ref": "AAAAAAGA9iZeZZwl/a0="
+					},
+					"name": "app.components.ts"
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGA9jDYQpyibK4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel3",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGA9jDYQpyjDnc=",
+					"_parent": {
+						"$ref": "AAAAAAGA9jDYQpyibK4="
+					},
+					"name": "video 11"
+				}
+			]
+		}
+	]
+}
