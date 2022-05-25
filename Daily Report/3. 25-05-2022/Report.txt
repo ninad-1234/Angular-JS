@@ -25,4 +25,10 @@ if (course =='BIGINNER') return beginner css class as input in ngClass
 Video 14 :- 
 > ngstyle :- applying multiple styles 
 > ngclass use frequently than ngstyle
+> CSS property with data dependent content :- use ngstyle 
+
+video 15 :- ngSwitch :- more than 2 possibilities 
+> [ngSwitch]="course.category"
+>  <div class="category" *ngSwitchCase="'BEGINNER'">Begineer</div>
+i.e ngSwitchCase directory 
 
