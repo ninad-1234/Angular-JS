@@ -34,4 +34,13 @@ Video 16 :- Angular Pipes :-
 pipe :- transform data and display in another form 
 
 
+Section 3 :- video 18 
+template quaring with view child and children 
+how application component template get reference to this selected course card :- 
+
+imp Inverse to verify later 
+
+
+
+
 
